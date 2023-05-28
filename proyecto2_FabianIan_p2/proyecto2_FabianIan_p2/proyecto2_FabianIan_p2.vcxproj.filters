@@ -38,6 +38,114 @@
     <ClInclude Include="VentanaMercado.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Aleatorios.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArbolBinarioOrdenado.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArbolBinarioOrdenadoAtacadoFrutoCuervo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArbolBinarioOrdenadoAtacadoArbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArbolBinarioOrdenadoAtacadoFrutoOveja.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArbolBinarioOrdenadoCrecer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArbolBinarioOrdenadoFrutos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AVLTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AVLTreeAtacadoArbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AVLTreeAtacadoFrutoCuervo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AVLTreeAtacadoFrutoOveja.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AVLTreeCrecer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AVLTreeFrutos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cuervo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Escritura.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Espantapajaros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneraCuervo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneraOveja.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneraPlaga.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Granjero.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapTreeAtacadoArbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapTreeAtacadoFrutoOveja.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapTreeAtacadoFrutoCuervo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapTreeCrecer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapTreeFrutos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Juego.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lectura.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Oveja.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Plaga.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplayTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplayTreeAtacadoArbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplayTreeAtacadoFrutoCuervo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplayTreeCrecer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplayTreeAtacadoFrutoOveja.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplayTreeFrutos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CppCLR_WinFormsProject.cpp">
@@ -56,6 +164,18 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="VentanaMercado.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArbolBinarioOrdenado.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AVLTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplayTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
