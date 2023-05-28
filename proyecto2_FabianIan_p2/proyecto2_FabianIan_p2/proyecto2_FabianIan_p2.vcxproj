@@ -131,61 +131,22 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\ED-Proyecto02\FarmVille\FarmVille\Granjero.h" />
-    <ClInclude Include="Aleatorios.h" />
-    <ClInclude Include="ArbolBinarioOrdenado.h" />
-    <ClInclude Include="ArbolBinarioOrdenadoAtacadoArbol.h" />
-    <ClInclude Include="ArbolBinarioOrdenadoAtacadoFrutoCuervo.h" />
-    <ClInclude Include="ArbolBinarioOrdenadoAtacadoFrutoOveja.h" />
-    <ClInclude Include="ArbolBinarioOrdenadoCrecer.h" />
-    <ClInclude Include="ArbolBinarioOrdenadoFrutos.h" />
-    <ClInclude Include="AVLTree.h" />
-    <ClInclude Include="AVLTreeAtacadoArbol.h" />
-    <ClInclude Include="AVLTreeAtacadoFrutoCuervo.h" />
-    <ClInclude Include="AVLTreeAtacadoFrutoOveja.h" />
-    <ClInclude Include="AVLTreeCrecer.h" />
-    <ClInclude Include="AVLTreeFrutos.h" />
-    <ClInclude Include="Cuervo.h" />
-    <ClInclude Include="Escritura.h" />
-    <ClInclude Include="Espantapajaros.h" />
     <ClInclude Include="Form1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="GeneraCuervo.h" />
-    <ClInclude Include="GeneraOveja.h" />
-    <ClInclude Include="GeneraPlaga.h" />
-    <ClInclude Include="Granjero.h" />
-    <ClInclude Include="HeapTree.h" />
-    <ClInclude Include="HeapTreeAtacadoArbol.h" />
-    <ClInclude Include="HeapTreeAtacadoFrutoCuervo.h" />
-    <ClInclude Include="HeapTreeAtacadoFrutoOveja.h" />
-    <ClInclude Include="HeapTreeCrecer.h" />
-    <ClInclude Include="HeapTreeFrutos.h" />
-    <ClInclude Include="Juego.h" />
-    <ClInclude Include="Lectura.h" />
-    <ClInclude Include="Oveja.h" />
     <ClInclude Include="PantallaInicial.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="pch.h" />
-    <ClInclude Include="Plaga.h" />
     <ClInclude Include="Resource.h" />
-    <ClInclude Include="SplayTree.h" />
-    <ClInclude Include="SplayTreeAtacadoArbol.h" />
-    <ClInclude Include="SplayTreeAtacadoFrutoCuervo.h" />
-    <ClInclude Include="SplayTreeAtacadoFrutoOveja.h" />
-    <ClInclude Include="SplayTreeCrecer.h" />
-    <ClInclude Include="SplayTreeFrutos.h" />
     <ClInclude Include="VentanaMercado.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ArbolBinarioOrdenado.cpp" />
     <ClCompile Include="AssemblyInfo.cpp" />
-    <ClCompile Include="AVLTree.cpp" />
     <ClCompile Include="CppCLR_WinFormsProject.cpp" />
     <ClCompile Include="Form1.cpp" />
-    <ClCompile Include="HeapTree.cpp" />
     <ClCompile Include="PantallaInicial.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -193,7 +154,6 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="SplayTree.cpp" />
     <ClCompile Include="VentanaMercado.cpp" />
   </ItemGroup>
   <ItemGroup>

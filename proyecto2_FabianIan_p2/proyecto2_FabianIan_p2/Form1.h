@@ -1,13 +1,6 @@
+#pragma once
 #include"Granjero.h"
 #include"VentanaMercado.h"
-
-#include "ArbolBinarioOrdenado.h"
-#include "ArbolBinarioOrdenadoAtacadoArbol.h"
-#include "ArbolBinarioOrdenadoAtacadoFrutoCuervo.h"
-#include "ArbolBinarioOrdenadoAtacadoFrutoOveja.h"
-#include "ArbolBinarioOrdenadoCrecer.h"
-#include "ArbolBinarioOrdenadoFrutos.h"
-
 namespace CppCLRWinFormsProject {
 	//proyecto2_FabianIan_p2
 	using namespace System;
@@ -26,7 +19,6 @@ namespace CppCLRWinFormsProject {
 		{
 			InitializeComponent();
 			initImages();
-			//inicianHilos();
 			//
 			//TODO: Add the constructor code here
 			//
@@ -1746,19 +1738,7 @@ namespace CppCLRWinFormsProject {
 				granjero->moverDerecha();
 				cambImageGranjero((granjero->getY() * 10 + granjero->getX()));
 			}
-			if (e->KeyCode == Keys::U) {
-				for (int i = 0; i < binarios->size(); i++) {
-					if ((*binarios)[i].getVivo()) {
-						cambImageArbolABO(((*binarios)[i].getPosY() * 10 + (*binarios)[i].getPosX()));
-					}
-					else {
-						cambImageArbolTransparente(((*binarios)[i].getPosY() * 10 + (*binarios)[i].getPosX()));
-					}
-				}
-			}
 		}
-
-		
 
 	protected:
 		/// <summary>
@@ -2308,25 +2288,6 @@ private: System::Windows::Forms::Label^ label13;
 		/// </summary>
 		System::ComponentModel::Container ^components;
 		Granjero* granjero = new Granjero("Granjero", 100000);
-		vector<ArbolBinarioOrdenado>* binarios = new vector<ArbolBinarioOrdenado>;
-
-		// Variables (representan la entrada de la GUI)
-		// Generales
-		int tamannoMapa = 8;
-		int destruccionFrutoCuervo = 15;
-		int tasaComerCuervo = 2;
-		int destruccionFrutoOveja = 30;
-		int tasaComerOveja = 5;
-		int destruccionArbol = 60;
-
-		// Arboles
-		//Binarios
-		int crecimientoArbolBinario = 60;
-		int crecimientoFrutoBinario = 25;
-		int tasaFrutos = 2;
-		double valorMinBinarios = 0.05;
-		double valorMaxBinarios = 7.5;
-
 		void initImages() {
 			this->BackgroundImage = Image::FromFile("img//granja.jpg");
 			this->pb_ArbolAB->BackgroundImage = Image::FromFile("img//arbolManzana.png");
