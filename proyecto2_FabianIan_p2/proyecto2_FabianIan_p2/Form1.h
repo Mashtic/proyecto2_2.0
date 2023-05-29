@@ -6579,57 +6579,6 @@ private: System::Void pictureBox60_Click(System::Object^ sender, System::EventAr
 private: System::Void pictureBox62_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 private: System::Void btn_Mercado_Click(System::Object^ sender, System::EventArgs^ e) {
 	VentanaMercado^ vent = gcnew VentanaMercado;
 	vent->ShowDialog();
