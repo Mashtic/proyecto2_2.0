@@ -36,10 +36,6 @@
 #include "GeneraOveja.h"
 #include "GeneraPlaga.h"
 
-int rangoAtaquePlagas = 1;
-int rangoCoberturaEspantapajaros = 1;
-int tamannoHeap = 100;
-int maxMapa = 7; // NO se cambia
 
 class Juego {
 
@@ -649,6 +645,14 @@ private:
 
 	// Precios
 	vector<double>* precios; // Binarios, avl, heap, splay, espantapajaros (size() = 5)
+
+	int rangoAtaquePlagas = 1;
+	int rangoCoberturaEspantapajaros = 1;
+	int tamannoHeap = 100;
+	int maxMapa = 7; // NO se cambia
+
+
+
 };
 
 #endif

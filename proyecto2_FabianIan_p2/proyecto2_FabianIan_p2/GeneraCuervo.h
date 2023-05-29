@@ -23,7 +23,7 @@ public:
 		tiempoMaxAparicionMinutos = maxAparicionTiempo;
 		running = true;
 		plagas = pPlagas;
-		maxMapa = pMaxMapa;
+		maxMapa1 = pMaxMapa;
 	}
 
 	// Métodos
@@ -87,7 +87,7 @@ private:
 
 	// Generales
 	double probabilidadAparicion; // 0 < x < 1
-	int maxMapa;
+	int maxMapa1;
 	
 	// Tiempos
 	int tiempoMinAparicionMinutos;

@@ -1,3 +1,4 @@
+#include "pch.h"
 #include "HeapTree.h"
 
 // Funciones para acceder a datos

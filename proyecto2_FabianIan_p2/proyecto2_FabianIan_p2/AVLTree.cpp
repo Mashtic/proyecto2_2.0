@@ -1,3 +1,4 @@
+#include "pch.h"
 #include "AVLTree.h"
 
 int avl_tree::height(avl *t) {

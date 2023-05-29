@@ -1,4 +1,6 @@
+#include "pch.h"
 #include "ArbolBinarioOrdenado.h"
+
 
 Nodo* ArbolBinarioOrdenado::insertarNodoRecursivo(Nodo* nodo, double valor) {
     if (nodo == nullptr) {
